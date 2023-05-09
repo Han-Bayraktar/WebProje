@@ -1,0 +1,2 @@
+Web Teknolojileri Dersi Proje 
+Benimle alakalı bir site yapacağım, öncelikle html css ve php kullanarak login sayfasını tasarlayacağım sonrasında bootstrap kullanarak responsive bir sayfa oluşturacağım navbar kullanmayı düşünüyorum.Kod editörü olarak VS code kullanacağım.Git github kurulu ancak php dosyalarını deneyebilmek için wamp kuracağım.
