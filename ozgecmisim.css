@@ -1,32 +1,10 @@
 body {
-    background-color: #333333;
-    color: white;
-  }
-  
-  .navbar-dark .navbar-nav .nav-link {
-    color: white;
-  }
-  
-  .ablok {
-    background-color: #444444;
-    color: white;
-  }
-  
-  .ablok h3,
-  .ablok li {
-    color: white;
-  }
-  
-  .ablok hr {
-    border-color: white;
-  }
-  
-  .display-1 {
-    color: white;
-  }
-  
-  .ablok ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
+  background-color:#212529;
+}
+.sayfa{
+  background-color: #212529;
+  color:white;
+}
+.sütun1 {
+  background-color: rgba(32, 27, 27, 0.604);
+}
