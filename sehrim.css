@@ -3,14 +3,6 @@ body {
     color: white;
   }
   
-  .navbar-dark .navbar-brand {
-    color: white;
-  }
-  
-  .navbar-dark .navbar-nav .nav-link {
-    color: white;
-  }
-  
   .carousel-indicators li {
     background-color: white;
   }
@@ -24,15 +16,7 @@ body {
     filter: invert(100%);
   }
   
-  .mt-4 h4 {
-    color: white;
-  }
-  
-  .mt-4 p {
-    color: white;
-  }
-  
   .cr{
-  width: 1500px;
+  width: 750px;
   }
   
