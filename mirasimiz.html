@@ -1,69 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mirasımız</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="mirasimiz.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mirasımız</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <style>
+    body {
+    background-color: #212529;
+    margin: 0;
+    padding: 0;
+  }
+
+    .header {
+      position: relative;
+      text-align: center;
+    }
+
+    .header img {
+      width: 100%;
+      height: auto;
+    }
+
+    .caption {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+    }
+
+    .row {
+      margin: 20px 0;
+    }
+
+    .pg1,
+    .pg2 {
+      color: white;
+      margin: 20px;
+    }
+
+    .ybs {
+      width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <span class="navbar-brand mb-0 h1">BEYAZIT HAN BAYRAKTAR</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="mx-auto" style="width: 200px;"></div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="webproje.html" >Hakkımda</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="ozgecmisim.html" >Özgeçmişim</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="sehrim.html" >Şehrim</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="mirasimiz.html" >Mirasımız</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="ilgialanlarim.html" >İlgi Alanlarım</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="iletisim.html" >İletişim</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      </nav>
-      <div class="header">
-        <img src="https://kultur.istanbul/gorsel/2022/04/yerebatan-sarnici-acilis.jpg" alt="yerebatan-sarnici-acilis" />
-        <div class="caption">
-          <h1>YEREBATAN SARNICI</h1>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <span class="navbar-brand mb-0 h1">BEYAZIT HAN BAYRAKTAR</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="mx-auto" style="width: 200px;"></div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="webproje.html">Hakkımda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ozgecmisim.html">Özgeçmişim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sehrim.html">Şehrim</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="mirasimiz.html">Mirasımız</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ilgialanlarim.html">İlgi Alanlarım</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="iletisim.html">İletişim</a>
+        </li>
+      </ul>
     </div>
+  </nav>
+  <div class="header">
+    <img class="img-fluid"
+      src="https://kultur.istanbul/gorsel/2022/04/yerebatan-sarnici-acilis.jpg"
+      alt="yerebatan-sarnici-acilis" />
+    <div class="caption">
+      <h1>YEREBATAN SARNICI</h1>
+    </div>
+  </div>
+  <div class="container">
     <div class="row mt-4">
-      <div class="col-6 ml-6 text-left">
-        <p class="pg1">532 yılında İmparator Justinianus tarafından inşa ettirilen Yerebatan Sarnıcı Stoa Bazilikası'nın altında yer aldığı için Bazilika Sarnıcı olarak da bilinir. Sarnıç, uzunluğu 140 metre genişliği 70 metre dikdörtgen biçimde bir alanı kapsayan dev bir yapıdır. 52 basamaklı taş bir merdivenle inilen sarnıcın içerisinde her biri 9 metre yüksekliğinde 336 sütun bulunmaktadır. Birbirine 4.80 metre aralıklarla dikilen bu sütunlar, her sırada 28 tane 12 sıra meydana getirirler.
+      <div class="col-lg-6 text-left">
+        <p class="pg1">
+          532 yılında İmparator Justinianus tarafından inşa ettirilen Yerebatan Sarnıcı Stoa Bazilikası'nın altında yer aldığı için Bazilika Sarnıcı olarak da bilinir. Sarnıç, uzunluğu 140 metre genişliği 70 metre dikdörtgen biçimde bir alanı kapsayan dev bir yapıdır. 52 basamaklı taş bir merdivenle inilen sarnıcın içerisinde her biri 9 metre yüksekliğinde 336 sütun bulunmaktadır. Birbirine 4.80 metre aralıklarla dikilen bu sütunlar, her sırada 28 tane 12 sıra meydana getirirler.
           Suyun içerisinde yükselen bu sütunlar uçsuz bucaksız bir ormanı hatırlatmakta ve ziyaretçiyi sarnıca girer girmez etkilemektedir. Sarnıcın tavan ağırlığı haç biçiminde tonozlar yuvarlak, kemerler vasıtasıyla sütunlara aktarılmıştır, çoğunluğu daha eski yapılardan toplandığı anlaşılan ve çeşitli mermer cinslerinden granitten yontulmuş sütunların büyük bir kısmı tek parçadan, bir kısmı da üst üste iki parçadan oluşmaktadır. Bu sütunların başlıkları yer yer farklı özellikler taşır. Bunlardan 98 adedi Corinth üslubu yansıtırken bir bölümünde Dor üslubunu yansıtmaktadır. Sarnıcın tuğladan örülmüş, 4.80 metre kalınlığındaki duvarları ve tuğla döşeli zemini Horasan harcından kalın bir tabakayla sıvanarak su geçmez hale getirilmiştir. Toplam 9 bin 800 metrekare bir alanı bulunan bu sarnıç yaklaşık 100 bin ton su depolama kapasitesine sahiptir.
- 
         </p>
       </div>
-      <div class="col-6 ml-6">
-        <iframe width="650" height="375" src="https://www.youtube.com/embed/NKOFNJhEKv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div class="col-lg-6 mt-5">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item"
+            src="https://www.youtube.com/embed/NKOFNJhEKv8" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-6">
-        <img class="ybs" src="https://www.kulturportali.gov.tr/contents/images/K%c3%9cLT%c3%9cR%20VE%20TUR%c4%b0ZM%20BAKANLI%c4%9eI%20AR%c5%9e%c4%b0V%c4%b0-0993-%c4%b0STANBUL-YEREBATAN%20SARNICI-%20STEVE%20MCCURRY%20-%2019_11_2013.jpg" alt="istanbulresim" width="700" height="450">
+      <div class="col-lg-6">
+        <img class="ybs img-fluid mt-4"
+          src="https://www.kulturportali.gov.tr/contents/images/K%c3%9cLT%c3%9cR%20VE%20TUR%c4%b0ZM%20BAKANLI%c4%9eI%20AR%c5%9e%c4%b0V%c4%b0-0993-%c4%b0STANBUL-YEREBATAN%20SARNICI-%20STEVE%20MCCURRY%20-%2019_11_2013.jpg"
+          alt="istanbulresim">
+          <img class="ybs img-fluid mt-5"
+          src="https://www.kulturportali.gov.tr/contents/images/K%c3%9cLT%c3%9cR%20VE%20TUR%c4%b0ZM%20BAKANLI%c4%9eI%20AR%c5%9e%c4%b0V%c4%b0-0818-%c4%b0STANBUL-YEREBATAN%20SARNICI-HAZEL%20THOMPSON-12-16-2013.jpg"
+          alt="istanbulresim">
       </div>
-      <div class="col-6 text-left">
-        <h4 class="text-center font-weight-bold">Geçmişten Günümüze İstanbul</h4>
-        <p class="pg2">İnşasında 7 bin kölenin çalıştığı sarnıcın suyu imparator Valens tarafından (368) yılında yaptırılan 971 metre uzunluğundaki Valens (Bozdoğan) kemeri ile imparator Justinianus'un yaptırdığı 115.45 metre uzunluğundaki Mağlova Kemeri yardımıyla şehre 19 kilometre mesafede Belgrat ormanlarındaki Eğrikapı su taksim merkezinden getirilmiştir. Sarnıçtaki sütunların, köşeli veya yivli biçimde olan birkaç tanesi hariç büyük çoğunluğu silindir biçimindedir. Bu sütunlar içerisinde üzeri oyma ve kabartma halinde Tavus Gözü, Sarkık Dal, Gözyaşı şekillerinin tekrarıyla süslenmiş olanı özellikle dikkati çeker. Bu sütun Bizans devrinde "Farum Tauri" denilen bugünkü Beyazıd meydanında kalıntıları bulunan IV. yüzyıl zamanına ait büyük Theodesiusun (379-395) zafer takındaki sütunların benzeridir. 
+      <div class="col-lg-6 text-left">
+        <p class="pg2">
+          İnşasında 7 bin kölenin çalıştığı sarnıcın suyu imparator Valens tarafından (368) yılında yaptırılan 971 metre uzunluğundaki Valens (Bozdoğan) kemeri ile imparator Justinianus'un yaptırdığı 115.45 metre uzunluğundaki Mağlova Kemeri yardımıyla şehre 19 kilometre mesafede Belgrat ormanlarındaki Eğrikapı su taksim merkezinden getirilmiştir. Sarnıçtaki sütunların, köşeli veya yivli biçimde olan birkaç tanesi hariç büyük çoğunluğu silindir biçimindedir. Bu sütunlar içerisinde üzeri oyma ve kabartma halinde Tavus Gözü, Sarkık Dal, Gözyaşı şekillerinin tekrarıyla süslenmiş olanı özellikle dikkati çeker. Bu sütun Bizans devrinde "Farum Tauri" denilen bugünkü Beyazıd meydanında kalıntıları bulunan IV. yüzyıl zamanına ait büyük Theodesiusun (379-395) zafer takındaki sütunların benzeridir. 
           Sarnıcın kuzeybatı köşesindeki iki sütunun altında kaide olarak kullanılan iki Medusa başı Roma Çağı heykel sanatının şaheser örneklerindendir. Sarnıcı ziyarete gelenlerin hayretler içerisinde seyrettikleri IV. yüzyıla ait bu başların hangi yapıdan alınarak buraya getirildiği konusunda kesin bir bilgi olmamakla birlikte Genç Roma Çağı'na ait antik bir yapıdan sökülerek buraya getirildiği düşünülmektedir.
           Yerebatan Sarnıcı, İstanbul'un Osmanlılar tarafından 1453 yılında fethinden sonra, bir müddet daha kullanılmış ve padişahların oturduğu Topkapı Sarayı'nın bahçelerine buradan su verilmiştir. Durgun su yerine çeşme suyunu yani akan suyu tercih eden Osmanlıların şehirde kendi su tesislerini kurduktan sonra kullanmadıkları anlaşılan sarnıç, 1544-1550 yıllarında Bizans kalıntılarını araştırmak üzere İstanbul'a gelen Hollandalı gezgin P. Gyllius tarafından yeniden keşfedilmiştir.
           Basilika Sarnıcı kurulduğundan günümüze kadar çeşitli onarımlardan geçmiştir. Osmanlı imparatorluğu döneminde iki defa restore edilen sarnıcın ilk onarımı 18. yüzyıda III. Ahmet zamanında Mimar Kayserili Mehmet Ağa tarafından yaptırılmıştır. 19. yüzyılda ikinci büyük onarım Sultan II. Abdülhamit (1876-1909) zamanındadır. Cumhuriyet dönemindeki en büyük onarım 1985 yılında yapılmıştır. İçerisindeki 50 bin ton çamurun çıkartılması ve gezi platformunun yapılmasıyla birlikte 9 Eylül 1987 yılında tamamlanmış ve tekrar ziyarete açılmıştır.
@@ -72,16 +128,31 @@
     </div>
 
     <div class="row">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.7710559424486!2d28.97530307577567!3d41.008383971350455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9bde0c66ac9%3A0x60c02fe1ee6d8471!2zWWVyZWJhdGFuIFNhcm7EsWPEsQ!5e0!3m2!1str!2str!4v1684333555972!5m2!1str!2str" width="1500" height="500" style="border:0; margin-left: 30px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="col-lg-12">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.7710559424486!2d28.97530307577567!3d41.008383971350455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9bde0c66ac9%3A0x60c02fe1ee6d8471!2zWWVyZWJhdGFuIFNhcm7EsWPEsQ!5e0!3m2!1str!2str!4v1684333555972!5m2!1str!2str"
+            class="embed-responsive-item" style="border:0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
     </div>
 
-      <footer class="bg-dark text-white-50 mt-3">
-   
+    <footer class="bg-dark text-white-50 mt-3">
+      <div class="container text-center">
         <small><i>&copy 2023 Tüm Telif Hakları Saklıdır</i></small>
-         
+      </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
