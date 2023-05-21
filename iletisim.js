@@ -11,7 +11,7 @@ new Vue({
     telefonerror: false
   },
   methods: {
-    submitForm: function() {
+    kaydetForm: function() {
       console.log('İsim:', this.isim);
       console.log('Soyadı:', this.soyisim);
       console.log('Cinsiyet:', this.cinsiyet);
@@ -22,7 +22,6 @@ new Vue({
 
       this.resetForm();
       this.kaydetForm();
-
     },
     resetForm: function() {
       this.isim = '';
@@ -33,12 +32,14 @@ new Vue({
       this.ilgialanlari = [];
       this.ülke = '';
       this.telefonerror = false;
+
+      this.resetForm();
     },
     isNumber: function(event) {
       if (event.keyCode < 48 || event.keyCode > 57) {
         event.preventDefault();
       }
-      this.telefonerror = this.phone.length !== 9;
+      this.telefonerror = this.telefon.length !== 10;
     },
     kaydetForm: function() {
       var savedData = {
@@ -52,7 +53,6 @@ new Vue({
       };
 
       console.log('Form verileri kaydedildi:', savedData);
-
     }
   }
 });
